@@ -9,6 +9,8 @@
 
 Heart disease is one of the major causes of fatality in millions of people worldwide. Early detection and diagnosis of heart disease can help prevent complications and improve patient outcomes. In this sample we will use a sample dataset with attributes like age, resting blood pressure, chest pain type, etc. to build a Machine Learning model to aide in decision making and prediction based on the data produced by healthcare sector globally.
 
+data is available [here](https://raw.githubusercontent.com/raghu4sangeeth/Data/master/heartdisease.csv)
+
 Given attributes in the order -
 
 1. age
