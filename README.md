@@ -1,9 +1,9 @@
 # Contents
 
-1. ![Fabric Hackathon (  # Heart Disease Prediction)]
+1. [Fabric Hackathon for Heart disease prediction](#heart-disease-prediction)
 
 
-# Heart Disease Prediction
+### Heart Disease Prediction
 
 **Scenario**
 
@@ -33,6 +33,7 @@ Please note the intent of the hackathon is to demonstrate how Fabric can be used
 **Probable Architecture**
 
 The proposed architecture might look like this. Feel free to use the components of your choice to perform activities. for example: you may chose to use SQL code to clean and transform. 
+
 ![image](https://github.com/raghu4sangeeth/Data/assets/34170707/793c13f1-066e-410f-8703-08d0b5dd0daf)
 
 **Recommended Completion**
@@ -42,6 +43,6 @@ The proposed architecture might look like this. Feel free to use the components 
 3. Clean and Transform the data using your preferred approach. Preferably a note book or stored procedure. You can use describe function in dataframe to see the statistics. 
 4. Add cholestorol levels  - <200 healthy, <240 atrisk, rest highrisk. Save it to a delta table along with other data
 5. Create an experiment using mlflow to do random split of the data and perform feature engineering.
-6. Use ![LightGBM classifier (https://lightgbm.readthedocs.io/en/v3.3.2/)] to classify the data. show the predictions and metrics.
+6. Use [LightGBM classifier](https://lightgbm.readthedocs.io/en/v3.3.2/) to classify the data. show the predictions and metrics.
 7. Use Faker package to generate the test data and use the model saved above to start predicting. Save the results as delta table.
 8. User Power BI to connect to the saved delta table and display the results. 
